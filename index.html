@@ -147,6 +147,122 @@
   </div>
 </div>
 
+<!-- 🆕 한눈에 비교 (BEFORE vs AFTER) -->
+<section style="background: linear-gradient(135deg, #eff6ff 0%, #fef2f2 100%); border: 2px solid #3b82f6;">
+  <h2 style="font-size:22px;">📊 한눈에 비교 — 현재 vs 22시 마감연장 시</h2>
+  <p class="desc">왼쪽: 현재 마감 직전(19:30~19:59) 압박받아 들어오는 주문 / 가운데: 22시 연장 시 추가 발생 (S4 기준) / 오른쪽: 연장 후 20-22시 전체 거래</p>
+
+  <div style="display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 12px; align-items: center; margin: 24px 0;">
+
+    <!-- 카드 1: 현재 마감 직전 -->
+    <div style="background: white; padding: 20px; border-radius: 12px; border-top: 4px solid #3b82f6; min-height: 220px;">
+      <div style="font-size: 13px; color: #64748b; margin-bottom: 4px;">📍 현재 (마감 직전)</div>
+      <div style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 14px;">19:30 ~ 19:59 KST</div>
+      <div style="margin-bottom: 10px;">
+        <div style="font-size: 11px; color: #94a3b8;">월평균 unique 고객</div>
+        <div style="font-size: 24px; font-weight: 700; color: #1d4ed8;">122명</div>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <div style="font-size: 11px; color: #94a3b8;">월평균 주문</div>
+        <div style="font-size: 18px; font-weight: 600; color: #1e40af;">211건</div>
+      </div>
+      <div>
+        <div style="font-size: 11px; color: #94a3b8;">월평균 거래액</div>
+        <div style="font-size: 18px; font-weight: 600; color: #1e40af;">7,712만</div>
+      </div>
+    </div>
+
+    <!-- 화살표 + 카드 2 -->
+    <div style="font-size: 36px; color: #94a3b8; text-align: center;">+</div>
+
+    <div style="background: white; padding: 20px; border-radius: 12px; border-top: 4px solid #dc2626; min-height: 220px; position: relative;">
+      <div style="position: absolute; top: -10px; right: 10px; background: #dc2626; color: white; font-size: 11px; padding: 3px 10px; border-radius: 999px;">⭐ S4 추가</div>
+      <div style="font-size: 13px; color: #64748b; margin-bottom: 4px;">🆕 22시 연장 시 추가</div>
+      <div style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 14px;">20:00 ~ 21:59 KST 신규</div>
+      <div style="margin-bottom: 10px;">
+        <div style="font-size: 11px; color: #94a3b8;">월평균 추가 고객</div>
+        <div style="font-size: 24px; font-weight: 700; color: #b91c1c;">+48명</div>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <div style="font-size: 11px; color: #94a3b8;">월평균 추가 주문</div>
+        <div style="font-size: 18px; font-weight: 600; color: #dc2626;">+66건</div>
+      </div>
+      <div>
+        <div style="font-size: 11px; color: #94a3b8;">월평균 추가 거래액</div>
+        <div style="font-size: 18px; font-weight: 600; color: #dc2626;">+2,546만</div>
+      </div>
+    </div>
+
+    <!-- 화살표 + 카드 3 -->
+    <div style="font-size: 32px; color: #94a3b8; text-align: center;">→</div>
+
+    <div style="background: white; padding: 20px; border-radius: 12px; border-top: 4px solid #10b981; min-height: 220px;">
+      <div style="font-size: 13px; color: #64748b; margin-bottom: 4px;">✅ 연장 후 (20-22시 전체)</div>
+      <div style="font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 14px;">20:00 ~ 21:59 KST 합계</div>
+      <div style="margin-bottom: 10px;">
+        <div style="font-size: 11px; color: #94a3b8;">월평균 unique 고객</div>
+        <div style="font-size: 24px; font-weight: 700; color: #047857;">145명</div>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <div style="font-size: 11px; color: #94a3b8;">월평균 주문</div>
+        <div style="font-size: 18px; font-weight: 600; color: #059669;">200건</div>
+      </div>
+      <div>
+        <div style="font-size: 11px; color: #94a3b8;">월평균 거래액</div>
+        <div style="font-size: 18px; font-weight: 600; color: #059669;">7,687만</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: white; padding: 16px 20px; border-radius: 10px; margin-top: 8px;">
+    <table style="margin-top: 0;">
+      <thead><tr>
+        <th>지표</th>
+        <th class="num" style="color:#1d4ed8;">📍 현재 19:30-19:59</th>
+        <th class="num" style="color:#dc2626;">🆕 +S4 추가 20-22시</th>
+        <th class="num" style="color:#047857;">✅ 연장 후 20-22시 합계</th>
+        <th class="num">비교 (합계/마감직전)</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>월평균 unique 고객</strong></td>
+          <td class="num">122명</td>
+          <td class="num scenario-4">+48명</td>
+          <td class="num"><strong>145명</strong></td>
+          <td class="num"><strong>119%</strong></td>
+        </tr>
+        <tr>
+          <td><strong>월평균 주문 건수</strong></td>
+          <td class="num">211건</td>
+          <td class="num scenario-4">+66건</td>
+          <td class="num"><strong>200건</strong></td>
+          <td class="num"><strong>95%</strong></td>
+        </tr>
+        <tr class="steak-row">
+          <td><strong>월평균 거래액 (paid)</strong></td>
+          <td class="num">7,712만</td>
+          <td class="num scenario-4">+2,546만</td>
+          <td class="num"><strong>7,687만</strong></td>
+          <td class="num"><strong>100%</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="chart-container" style="height: 280px;"><canvas id="chartCompare"></canvas></div>
+
+  <div class="insight-box steak">
+    <strong>💡 핵심 메시지</strong>
+    <ul>
+      <li>현재 마감 직전(19:30-19:59) 한 시간대에 <strong>매월 122명, 7,712만</strong>의 거래 발생 — 마감 압박으로 몰리는 트래픽</li>
+      <li>22시 연장 시 <strong>+48명 / +2,546만/월 신규 거래</strong> (S4 기준) 추가 가능</li>
+      <li>연장 후 20-22시 시간대는 <strong>마감 직전과 거의 동등한 거래 규모(99%)</strong>로 성장 — 저녁 시간대 매출 분산 효과</li>
+      <li>특히 <strong>고깃집(STEAK_HOUSE)</strong>는 현재도 마감 직전·20-22시 unique 고객수가 동일(23명) — 영업 종료 후 자연스럽게 주문하는 패턴 확정</li>
+    </ul>
+  </div>
+</section>
+
 <!-- Section 2 -->
 <section>
   <h2>① 19:30~19:59 KST 월별 거래액</h2>
@@ -257,67 +373,10 @@
   </table>
 </section>
 
-<!-- Section 4.5: 월간 기대 이익 (NEW HIGHLIGHT) -->
-<section style="background: linear-gradient(135deg, #fef2f2 0%, #fff7ed 100%); border: 2px solid #dc2626;">
-  <h2 class="steak-h2">💰 마감 22시 연장 시 월간 기대 이익 (한눈에 보기)</h2>
-  <p class="desc">"매월 얼마나 더 벌 수 있나?" — 시나리오별 월평균 추가매출</p>
-
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 20px 0;">
-    <div style="background: white; padding: 24px; border-radius: 12px; border-top: 4px solid #94a3b8;">
-      <div style="font-size: 13px; color: #64748b; margin-bottom: 8px;">📍 S1 보수적 (최저)</div>
-      <div style="font-size: 32px; font-weight: 700; color: #64748b;">+0원</div>
-      <div style="font-size: 12px; color: #94a3b8; margin-top: 6px;">매출 변동 없음, 고객경험만 개선</div>
-    </div>
-    <div style="background: white; padding: 24px; border-radius: 12px; border-top: 4px solid #3b82f6;">
-      <div style="font-size: 13px; color: #64748b; margin-bottom: 8px;">📊 S2 중간 (전 업종 +30%)</div>
-      <div style="font-size: 32px; font-weight: 700; color: #1d4ed8;">+1,542만</div>
-      <div style="font-size: 12px; color: #94a3b8; margin-top: 6px;">매월 약 1542만원 추가</div>
-    </div>
-    <div style="background: white; padding: 24px; border-radius: 12px; border-top: 4px solid #dc2626; position: relative;">
-      <div style="position: absolute; top: -10px; right: 10px; background: #dc2626; color: white; font-size: 11px; padding: 3px 10px; border-radius: 999px;">⭐ 현실적 추천</div>
-      <div style="font-size: 13px; color: #64748b; margin-bottom: 8px;">🥩 S4 고깃집 강화</div>
-      <div style="font-size: 36px; font-weight: 700; color: #b91c1c;">+2,546만</div>
-      <div style="font-size: 12px; color: #94a3b8; margin-top: 6px;">매월 약 2546만원 추가 (연 약 3.06억)</div>
-    </div>
-    <div style="background: white; padding: 24px; border-radius: 12px; border-top: 4px solid #f59e0b;">
-      <div style="font-size: 13px; color: #64748b; margin-bottom: 8px;">🚀 S3 적극적 (상한)</div>
-      <div style="font-size: 32px; font-weight: 700; color: #b45309;">+2.41억</div>
-      <div style="font-size: 12px; color: #94a3b8; margin-top: 6px;">매월 약 2.41억 (과대 추정 가능)</div>
-    </div>
-  </div>
-
-  <div style="background: white; padding: 18px 24px; border-radius: 10px; margin-top: 16px;">
-    <div style="font-size: 14px; color: #475569; margin-bottom: 8px;"><strong>📈 최근 3개월(2026-02 ~ 04) 추세 기준 월간 기대 이익</strong></div>
-    <table style="margin-top: 8px;">
-      <thead><tr>
-        <th>시나리오</th><th>월평균 추가매출</th><th>연환산</th><th>비고</th>
-      </tr></thead>
-      <tbody>
-        <tr><td>S1 보수적</td><td class="num">+0원</td><td class="num">+0원</td><td class="small">매출 변동 없음</td></tr>
-        <tr><td>S2 중간</td><td class="num scenario-2">+1,981만</td><td class="num scenario-2">+2.38억</td><td class="small">전 업종 +30%</td></tr>
-        <tr class="steak-row"><td><strong>🥩 S4 고깃집강화 ⭐</strong></td><td class="num scenario-4"><strong>+3,489만</strong></td><td class="num scenario-4"><strong>+4.19억</strong></td><td class="small">고깃집 +100%, 그 외 +30%</td></tr>
-        <tr><td>S3 적극</td><td class="num scenario-3">+2.41억</td><td class="num scenario-3">+28.93억</td><td class="small">상한 참고용</td></tr>
-      </tbody>
-    </table>
-    <div style="font-size: 12px; color: #94a3b8; margin-top: 10px;">※ 최근 3개월 평균 사용 — 최신 트렌드 반영, 마감임박 고객 188명까지 증가한 현 시점 기준</div>
-  </div>
-
-  <div class="chart-container" style="height: 280px;"><canvas id="chartMonthlyBenefit"></canvas></div>
-
-  <div class="insight-box steak">
-    <strong>💡 결론 — 마감연장의 월간 기대 이익</strong>
-    <ul>
-      <li><strong>현실적 기대치 (S4): 매월 약 +2546만원 추가 매출</strong> · 연환산 약 3.06억</li>
-      <li>이중 <strong>고깃집 세그먼트가 약 56% 기여 (1,433만/월)</strong></li>
-      <li>최근 3개월 추세는 더 높아 <strong>S4 기준 매월 +3,489만</strong> 수준 (성장세 반영)</li>
-      <li>최저 보수적 시나리오에서도 <strong>고객 만족도·경쟁력 향상 효과</strong>는 확보됨</li>
-    </ul>
-  </div>
-</section>
-
-<!-- Section 5: 시나리오 -->
+<!-- Section 4: 시나리오 (통합) -->
 <section>
-  <h2>④ 🎯 시나리오별 추가 매출 (16개월 합계)</h2>
+  <h2>④ 🎯 시나리오별 추가 매출 예측</h2>
+  <p class="desc">22시 마감연장 시 추가 발생할 매출 4가지 시나리오. <strong>S4(고깃집 강화)가 현실적 추천</strong>.</p>
   <div class="chart-container"><canvas id="chartScenarios"></canvas></div>
 
   <div class="scenario-cards">
@@ -343,13 +402,15 @@
     </div>
   </div>
 
-  <h3 style="margin-top:28px; margin-bottom:8px; font-size:16px;">📅 월별 예측</h3>
+  <h3 style="margin-top:28px; margin-bottom:8px; font-size:16px;">📅 월별 예측 (시나리오별)</h3>
   <table>
     <thead><tr>
       <th>월</th><th>현재 20-22시 주문</th><th>현재 paid</th><th>S1</th><th>S2 (+30%)</th><th>S4 🥩 고깃집강화</th><th>S3 적극</th>
     </tr></thead>
     <tbody><tr><td>2025-01</td><td class="num">185</td><td class="num">82,890,295</td><td class="num scenario-1">0</td><td class="num scenario-2">24,867,088</td><td class="num scenario-4">34,521,390</td><td class="num scenario-3">388,634,225</td></tr><tr><td>2025-02</td><td class="num">83</td><td class="num">26,898,905</td><td class="num scenario-1">0</td><td class="num scenario-2">8,069,671</td><td class="num scenario-4">12,892,913</td><td class="num scenario-3">126,116,514</td></tr><tr><td>2025-03</td><td class="num">94</td><td class="num">27,427,532</td><td class="num scenario-1">0</td><td class="num scenario-2">8,228,259</td><td class="num scenario-4">12,958,348</td><td class="num scenario-3">128,595,001</td></tr><tr><td>2025-04</td><td class="num">92</td><td class="num">29,814,886</td><td class="num scenario-1">0</td><td class="num scenario-2">8,944,465</td><td class="num scenario-4">14,198,056</td><td class="num scenario-3">139,788,199</td></tr><tr><td>2025-05</td><td class="num">79</td><td class="num">26,850,776</td><td class="num scenario-1">0</td><td class="num scenario-2">8,055,232</td><td class="num scenario-4">15,092,574</td><td class="num scenario-3">125,890,860</td></tr><tr><td>2025-06</td><td class="num">66</td><td class="num">19,319,054</td><td class="num scenario-1">0</td><td class="num scenario-2">5,795,716</td><td class="num scenario-4">9,854,162</td><td class="num scenario-3">90,578,101</td></tr><tr><td>2025-07</td><td class="num">80</td><td class="num">27,126,574</td><td class="num scenario-1">0</td><td class="num scenario-2">8,137,972</td><td class="num scenario-4">14,698,004</td><td class="num scenario-3">127,183,949</td></tr><tr><td>2025-08</td><td class="num">112</td><td class="num">40,225,962</td><td class="num scenario-1">0</td><td class="num scenario-2">12,067,788</td><td class="num scenario-4">22,451,826</td><td class="num scenario-3">188,600,916</td></tr><tr><td>2025-09</td><td class="num">157</td><td class="num">75,427,003</td><td class="num scenario-1">0</td><td class="num scenario-2">22,628,100</td><td class="num scenario-4">30,583,707</td><td class="num scenario-3">353,642,303</td></tr><tr><td>2025-10</td><td class="num">130</td><td class="num">46,373,059</td><td class="num scenario-1">0</td><td class="num scenario-2">13,911,917</td><td class="num scenario-4">23,110,738</td><td class="num scenario-3">217,421,808</td></tr><tr><td>2025-11</td><td class="num">126</td><td class="num">42,162,343</td><td class="num scenario-1">0</td><td class="num scenario-2">12,648,702</td><td class="num scenario-4">23,089,055</td><td class="num scenario-3">197,679,710</td></tr><tr><td>2025-12</td><td class="num">205</td><td class="num">102,520,017</td><td class="num scenario-1">0</td><td class="num scenario-2">30,756,005</td><td class="num scenario-4">55,641,073</td><td class="num scenario-3">480,668,905</td></tr><tr><td>2026-01</td><td class="num">197</td><td class="num">77,496,127</td><td class="num scenario-1">0</td><td class="num scenario-2">23,248,838</td><td class="num scenario-4">33,570,816</td><td class="num scenario-3">363,343,468</td></tr><tr><td>2026-02</td><td class="num">165</td><td class="num">71,770,988</td><td class="num scenario-1">0</td><td class="num scenario-2">21,531,296</td><td class="num scenario-4">34,175,599</td><td class="num scenario-3">336,500,941</td></tr><tr><td>2026-03</td><td class="num">170</td><td class="num">53,289,270</td><td class="num scenario-1">0</td><td class="num scenario-2">15,986,781</td><td class="num scenario-4">26,085,198</td><td class="num scenario-3">249,848,720</td></tr><tr><td>2026-04</td><td class="num">194</td><td class="num">73,059,109</td><td class="num scenario-1">0</td><td class="num scenario-2">21,917,732</td><td class="num scenario-4">44,410,010</td><td class="num scenario-3">342,540,344</td></tr><tr class="total-row"><td><strong>합계</strong></td><td class="num"><strong>2,135</strong></td><td class="num"><strong>822,651,900</strong></td><td class="num scenario-1"><strong>0</strong></td><td class="num scenario-2"><strong>246,795,562</strong></td><td class="num scenario-4"><strong>407,333,469</strong></td><td class="num scenario-3"><strong>3,857,033,964</strong></td></tr></tbody>
   </table>
+
+  <div class="chart-container" style="height: 300px; margin-top: 16px;"><canvas id="chartMonthlyBenefit"></canvas></div>
 
   <div class="insight-box">
     <strong>💡 시나리오 해석 가이드</strong>
@@ -454,7 +515,7 @@
 </section>
 
 <footer>
-  Generated 2026-05-11 · 본대로(Bondaero) 주문 + 유저 데이터 기반 · 16개월 분석
+  Generated 2026-05-12 · 본대로(Bondaero) 주문 + 유저 데이터 기반 · 16개월 분석
 </footer>
 
 </div>
@@ -468,6 +529,24 @@ new Chart(document.getElementById('chart2'), {
   type: 'line',
   data: { labels: ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04"], datasets: [{ label: 'SUCCESS paid', data: [71821440, 47900515, 49502388, 49865658, 50122814, 48455458, 61019042, 56371044, 88521401, 55559908, 78719582, 129744426, 81390700, 101933059, 94208556, 132493364], borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', tension: 0.3, fill: true, pointRadius: 5, pointBackgroundColor: '#10b981' }] },
   options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { callback: v => (v/10000).toLocaleString()+'만' } } } }
+});
+
+// 🆕 한눈에 비교 차트 (현재 vs 추가 vs 합계)
+new Chart(document.getElementById('chartCompare'), {
+  type: 'bar',
+  data: {
+    labels: ['Unique 고객 (명)', '주문 건수', '거래액 (만)'],
+    datasets: [
+      { label: '📍 현재 19:30-19:59', data: [121.9, 210.7, 7712], backgroundColor: '#3b82f6', borderRadius: 4 },
+      { label: '🆕 +S4 추가 20-22시', data: [47.9, 66.1, 2546], backgroundColor: '#dc2626', borderRadius: 4 },
+      { label: '✅ 연장 후 20-22시 합계', data: [144.7, 199.5, 7687], backgroundColor: '#10b981', borderRadius: 4 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { title: { display: true, text: '현재 마감 직전 vs 22시 연장 시 (월평균)' }, legend: { position: 'top' } },
+    scales: { y: { beginAtZero: true } }
+  }
 });
 
 new Chart(document.getElementById('chart3'), {
